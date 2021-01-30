@@ -15,14 +15,9 @@ struct Lab {
     // the target number of 228, then return 9275.
     func findTwoNumbers(input: [Int], addsTo: Int) -> Int {
         // ----------Your code goes here---------------
-        for i in 0 ..< input.count - 1 {
-            for j in i+1 ..< input.count {
-                if input[i] + input[j] == addsTo {
-                    return input[i] * input[j]
-                }
-            }
-        }
-        return 0
+
+
+
         // -------------------------
     }
 }
