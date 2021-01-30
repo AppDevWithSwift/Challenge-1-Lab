@@ -13,7 +13,20 @@
 		19343EE125C4B557000BB9B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19343EE025C4B557000BB9B1 /* Assets.xcassets */; };
 		19343EE425C4B557000BB9B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19343EE325C4B557000BB9B1 /* Preview Assets.xcassets */; };
 		19343EE725C4B557000BB9B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19343EE525C4B557000BB9B1 /* LaunchScreen.storyboard */; };
+		19343EF025C4B57F000BB9B1 /* Lab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19343EEF25C4B57F000BB9B1 /* Lab.swift */; };
+		19343EF925C4B5EC000BB9B1 /* Challenge_1_LabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19343EF825C4B5EC000BB9B1 /* Challenge_1_LabTests.swift */; };
+		19343F0225C4B975000BB9B1 /* Lab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19343EEF25C4B57F000BB9B1 /* Lab.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19343EFB25C4B5EC000BB9B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19343ECF25C4B554000BB9B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19343ED625C4B554000BB9B1;
+			remoteInfo = "Challenge-1-Lab";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		19343ED725C4B554000BB9B1 /* Challenge-1-Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Challenge-1-Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +37,21 @@
 		19343EE325C4B557000BB9B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		19343EE625C4B557000BB9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19343EE825C4B557000BB9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19343EEF25C4B57F000BB9B1 /* Lab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab.swift; sourceTree = "<group>"; };
+		19343EF625C4B5EC000BB9B1 /* Challenge-1-LabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Challenge-1-LabTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19343EF825C4B5EC000BB9B1 /* Challenge_1_LabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge_1_LabTests.swift; sourceTree = "<group>"; };
+		19343EFA25C4B5EC000BB9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		19343ED425C4B554000BB9B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19343EF325C4B5EC000BB9B1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				19343ED925C4B554000BB9B1 /* Challenge-1-Lab */,
+				19343EF725C4B5EC000BB9B1 /* Challenge-1-LabTests */,
 				19343ED825C4B554000BB9B1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				19343ED725C4B554000BB9B1 /* Challenge-1-Lab.app */,
+				19343EF625C4B5EC000BB9B1 /* Challenge-1-LabTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +85,7 @@
 				19343EDA25C4B554000BB9B1 /* AppDelegate.swift */,
 				19343EDC25C4B554000BB9B1 /* SceneDelegate.swift */,
 				19343EDE25C4B554000BB9B1 /* ContentView.swift */,
+				19343EEF25C4B57F000BB9B1 /* Lab.swift */,
 				19343EE025C4B557000BB9B1 /* Assets.xcassets */,
 				19343EE525C4B557000BB9B1 /* LaunchScreen.storyboard */,
 				19343EE825C4B557000BB9B1 /* Info.plist */,
@@ -73,6 +100,15 @@
 				19343EE325C4B557000BB9B1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		19343EF725C4B5EC000BB9B1 /* Challenge-1-LabTests */ = {
+			isa = PBXGroup;
+			children = (
+				19343EF825C4B5EC000BB9B1 /* Challenge_1_LabTests.swift */,
+				19343EFA25C4B5EC000BB9B1 /* Info.plist */,
+			);
+			path = "Challenge-1-LabTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +131,24 @@
 			productReference = 19343ED725C4B554000BB9B1 /* Challenge-1-Lab.app */;
 			productType = "com.apple.product-type.application";
 		};
+		19343EF525C4B5EC000BB9B1 /* Challenge-1-LabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19343EFD25C4B5EC000BB9B1 /* Build configuration list for PBXNativeTarget "Challenge-1-LabTests" */;
+			buildPhases = (
+				19343EF225C4B5EC000BB9B1 /* Sources */,
+				19343EF325C4B5EC000BB9B1 /* Frameworks */,
+				19343EF425C4B5EC000BB9B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19343EFC25C4B5EC000BB9B1 /* PBXTargetDependency */,
+			);
+			name = "Challenge-1-LabTests";
+			productName = "Challenge-1-LabTests";
+			productReference = 19343EF625C4B5EC000BB9B1 /* Challenge-1-LabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -106,6 +160,10 @@
 				TargetAttributes = {
 					19343ED625C4B554000BB9B1 = {
 						CreatedOnToolsVersion = 12.4;
+					};
+					19343EF525C4B5EC000BB9B1 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 19343ED625C4B554000BB9B1;
 					};
 				};
 			};
@@ -123,6 +181,7 @@
 			projectRoot = "";
 			targets = (
 				19343ED625C4B554000BB9B1 /* Challenge-1-Lab */,
+				19343EF525C4B5EC000BB9B1 /* Challenge-1-LabTests */,
 			);
 		};
 /* End PBXProject section */
@@ -138,6 +197,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		19343EF425C4B5EC000BB9B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -148,10 +214,28 @@
 				19343EDB25C4B554000BB9B1 /* AppDelegate.swift in Sources */,
 				19343EDD25C4B554000BB9B1 /* SceneDelegate.swift in Sources */,
 				19343EDF25C4B554000BB9B1 /* ContentView.swift in Sources */,
+				19343EF025C4B57F000BB9B1 /* Lab.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19343EF225C4B5EC000BB9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19343EF925C4B5EC000BB9B1 /* Challenge_1_LabTests.swift in Sources */,
+				19343F0225C4B975000BB9B1 /* Lab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19343EFC25C4B5EC000BB9B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19343ED625C4B554000BB9B1 /* Challenge-1-Lab */;
+			targetProxy = 19343EFB25C4B5EC000BB9B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		19343EE525C4B557000BB9B1 /* LaunchScreen.storyboard */ = {
@@ -323,6 +407,46 @@
 			};
 			name = Release;
 		};
+		19343EFE25C4B5EC000BB9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4K7853APAS;
+				INFOPLIST_FILE = "Challenge-1-LabTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thewcl.Challenge-1-LabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Challenge-1-Lab.app/Challenge-1-Lab";
+			};
+			name = Debug;
+		};
+		19343EFF25C4B5EC000BB9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4K7853APAS;
+				INFOPLIST_FILE = "Challenge-1-LabTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thewcl.Challenge-1-LabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Challenge-1-Lab.app/Challenge-1-Lab";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -340,6 +464,15 @@
 			buildConfigurations = (
 				19343EEC25C4B557000BB9B1 /* Debug */,
 				19343EED25C4B557000BB9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19343EFD25C4B5EC000BB9B1 /* Build configuration list for PBXNativeTarget "Challenge-1-LabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19343EFE25C4B5EC000BB9B1 /* Debug */,
+				19343EFF25C4B5EC000BB9B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
